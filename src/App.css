@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.nav_link{
+  background-color: grey;
+  padding: 50px;
+  margin: 5px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav_link:hover{
+  background-color: black;
+}
+
+.product_img{
+  object-fit: contain;
+  width: 100%;
+  height: 100px;
+}
+
+.eye-catching-message {
+    background: linear-gradient(135deg, #ff6a00, #ffb347); /* vibrant gradient */
+    color: #fff;                                         /* white text */
+    padding: 20px;                                       /* good spacing */
+    border-radius: 12px;                                 /* rounded corners */
+    text-align: center;                                  /* center text */
+    font-size: 28px;                                     /* big font */
+    font-family: "Arial Black", Gadget, sans-serif;     /* bold, strong font */
+    font-weight: 700;                                    /* bold weight */
+    margin-bottom: 25px;                                 /* spacing below */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);             /* subtle shadow */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);           /* text shadow for pop */
+}
+
+
